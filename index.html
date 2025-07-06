@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1 class="logo">My Portfolio</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="section home">
+    <div class="content">
+      <h2>Hi, I'm <span>Karuppasamy.K.M</span></h2>
+      <p>A passionate Java Fullstack Developer</p>
+      <a href="#contact" class="btn">Let's Connect</a>
+    </div>
+  </section>
+
+  <section id="about" class="section about">
+    <h2>About Me</h2>I am a passionate and results-driven  Java Full Stack Developer with a strong foundation in frontend and backend web development. 
+    I specialize in building scalable, efficient, and user-friendly applications using modern technologies.</p>
+  </section>
+
+  <section id="skills" class="section skills">
+    <h2>Skills</h2>
+    <div class="skill-list">
+      <div class="skill">HTML</div>
+      <div class="skill">CSS</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">React</div>
+      <div class="skill">Java</div>
+      <div class="skill">Springboot</div>
+      <div class="skill">MySQL</div>
+    </div>
+  </section>
+
+  <section id="projects" class="section projects">
+    <h2>Projects</h2>
+    <div class="project-cards">
+      <div class="card">
+        <h3>Registration Form</h3>
+        <p>The Registation Form is a simple and responsive web interface designed to collect user credentials such as username and password. 
+            It is built using HTML for structure, CSS for styling, and JavaScript for client-side validation.</p>
+      </div>
+      <div class="card">
+        <h3>GST Calculator</h3>
+        <p>The GST Calculator is a mini project web application built using ReactJS that helps users calculate the GST amount 
+            and the total price of goods or services based on the entered product price and selected GST rate.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Karuppasamy. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
